@@ -109,7 +109,7 @@ export function Chat() {
                       p={2}
                       maxWidth="70%"
                       dangerouslySetInnerHTML={{
-                        __html: DOMPurify.sanitize(marked(message.content)),
+                        __html: marked(message.content),
                       }}
                     />
                     {isUser && (
