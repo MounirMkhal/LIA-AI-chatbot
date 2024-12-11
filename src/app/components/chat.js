@@ -53,7 +53,7 @@ export function Chat() {
           fontFamily: 'Roboto, sans-serif',
         }}
       >
-        <AppBar position="static" sx={{ backgroundImage: 'url("https://cdn.discordapp.com/attachments/1312932606802792450/1313743607647178782/Screenshot_327.png?ex=675b21d4&is=6759d054&hm=893284ac4ce07b14ba56147aed1a77fc45b68c4e1d63bdc1c559847cca41683a&")', }} elevation={0}>
+        <AppBar position="static" sx={{ backgroundImage: 'url("https://cdn.discordapp.com/attachments/1312932606802792450/1313713132161601596/Screenshot_2024-12-03_at_7.46.15_PM.png?ex=675b0572&is=6759b3f2&hm=522aebbab24bce446ee34f551ce9c07e42d98de7701f44309c3363389bb1e810&")', }} elevation={0}>
           <Toolbar sx={{ justifyContent: "space-between", padding: "1rem" }}>
             <Box
               component="img"
@@ -78,7 +78,7 @@ export function Chat() {
               maxHeight: "100%",
             }}
           >
-            <Box sx={{ overflowY: "auto", px: 3, py: 2, flexGrow: 1, backgroundImage: 'url("https://cdn.discordapp.com/attachments/1312932606802792450/1313743607647178782/Screenshot_327.png?ex=675b21d4&is=6759d054&hm=893284ac4ce07b14ba56147aed1a77fc45b68c4e1d63bdc1c559847cca41683a&")', }}>
+            <Box sx={{ overflowY: "auto", px: 3, py: 2, flexGrow: 1, backgroundImage: 'url("https://cdn.discordapp.com/attachments/1312932606802792450/1313713132161601596/Screenshot_2024-12-03_at_7.46.15_PM.png?ex=675b0572&is=6759b3f2&hm=522aebbab24bce446ee34f551ce9c07e42d98de7701f44309c3363389bb1e810&")', }}>
               {combinedMessages.map((message, index) => {
                 const isUser = message.role === "user";
                 return (
@@ -92,7 +92,7 @@ export function Chat() {
                       transition: "all 0.3s ease",
                       "&:hover": {
                         transform: "scale(1.02)",
-                        backgroundImage: 'url("https://cdn.discordapp.com/attachments/1312932606802792450/1313743607647178782/Screenshot_327.png?ex=675b21d4&is=6759d054&hm=893284ac4ce07b14ba56147aed1a77fc45b68c4e1d63bdc1c559847cca41683a&")',
+                        backgroundImage: 'url("https://cdn.discordapp.com/attachments/1312932606802792450/1313713132161601596/Screenshot_2024-12-03_at_7.46.15_PM.png?ex=675b0572&is=6759b3f2&hm=522aebbab24bce446ee34f551ce9c07e42d98de7701f44309c3363389bb1e810&")',
                       },
                     }}
                   >
@@ -131,7 +131,7 @@ export function Chat() {
                 p: 2,
                 display: "flex",
                 alignItems: "center",
-                backgroundImage: 'url("https://cdn.discordapp.com/attachments/1312932606802792450/1313743607647178782/Screenshot_327.png?ex=675b21d4&is=6759d054&hm=893284ac4ce07b14ba56147aed1a77fc45b68c4e1d63bdc1c559847cca41683a&")',
+                backgroundImage: 'url("https://cdn.discordapp.com/attachments/1312932606802792450/1313713132161601596/Screenshot_2024-12-03_at_7.46.15_PM.png?ex=675b0572&is=6759b3f2&hm=522aebbab24bce446ee34f551ce9c07e42d98de7701f44309c3363389bb1e810&")',
               }}
             >
               <TextField
