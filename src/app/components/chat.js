@@ -47,7 +47,7 @@ export function Chat() {
           display: "flex",
           flexDirection: "column",
           height: "100vh",
-          backgroundImage: 'url("https://cdn.discordapp.com/attachments/1312932606802792450/1313743607647178782/Screenshot_327.png?ex=675b21d4&is=6759d054&hm=893284ac4ce07b14ba56147aed1a77fc45b68c4e1d63bdc1c559847cca41683a&")',
+          backgroundImage: 'url("https://cdn.discordapp.com/attachments/1312932606802792450/1314001204329582693/Screenshot_2024-12-04_at_2.51.08_PM.png?ex=6760aefc&is=675f5d7c&hm=47dea138ae28f4df90b28057fd4c7e6ef2583b42837e468a36c718d1984177ef&")',
           backgroundSize: "fill",
           backgroundPosition: "center",
           fontFamily: 'Roboto, sans-serif',
