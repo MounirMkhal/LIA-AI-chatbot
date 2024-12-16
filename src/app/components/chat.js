@@ -53,7 +53,7 @@ export function Chat() {
           fontFamily: 'Roboto, sans-serif',
         }}
       >
-        <AppBar position="static" sx={{ backgroundImage: 'url("https://cdn.discordapp.com/attachments/1312932606802792450/1313713132161601596/Screenshot_2024-12-03_at_7.46.15_PM.png?ex=675b0572&is=6759b3f2&hm=522aebbab24bce446ee34f551ce9c07e42d98de7701f44309c3363389bb1e810&")', }} elevation={0}>
+        <AppBar position="static" sx={{ backgroundImage: 'url("https://cdn.discordapp.com/attachments/1312932606802792450/1314001204329582693/Screenshot_2024-12-04_at_2.51.08_PM.png?ex=6760aefc&is=675f5d7c&hm=47dea138ae28f4df90b28057fd4c7e6ef2583b42837e468a36c718d1984177ef&")', }} elevation={0}>
           <Toolbar sx={{ justifyContent: "space-between", padding: "1rem" }}>
             <Box
               component="img"
